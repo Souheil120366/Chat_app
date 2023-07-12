@@ -1,0 +1,51 @@
+#App {
+  text-align: center;
+  /* display: grid; */
+  /* place-items: center; */
+  width: 75%;
+  height: 50%;
+  margin: 0 auto;
+  /* overflow: auto; */
+  overflow-y: scroll;
+  /* border: 1px solid black; */
+}
+
+#messages{
+  color:black !important;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(1% + 2vmin);
+  color: white;
+}
+
+.box-msg{
+  color:black;
+  
+  justify-content: space-between;
+  width: 40%;
+  
+  margin-bottom: 1%;
+  border-radius: 30%;
+  padding:2%;
+  /* background-color: rgb(236, 236, 236); */
+}
+.msg-others {
+  background-color: rgb(221,221,221);
+  margin-left:12%;
+}
+.msg-you {
+  background-color: rgb(159,197,248);
+  margin-left:45%;
+}
+
+.bottom {
+  margin-bottom: 2%;
+}
